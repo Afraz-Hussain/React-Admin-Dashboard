@@ -1,17 +1,12 @@
-a fully responsive Admin Dashboard built using React.js, Recharts, HTML, and CSS!
+# React + Vite
 
-🔧 Key Features:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-📊 Dynamic data visualization with Recharts
+Currently, two official plugins are available:
 
-👤 Admin access to add, delete, and update users/products
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-📦 Real-time view of total products and individual product revenue
+## Expanding the ESLint configuration
 
-💰 Track total profit, expenses, and product-wise revenue breakdown
-
-🎯 Insights into leads by sources, user stats, and more
-
-💻 Completely responsive and clean UI across all screen sizes
-
-This project helped me improve my frontend skills, dive deeper into data-driven UI, and explore scalable dashboard designs. It’s a step forward in my journey to becoming a professional full-stack developer.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

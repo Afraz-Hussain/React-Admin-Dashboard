@@ -1,0 +1,39 @@
+.mainsidebar{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+ 
+    border-radius: 10px;
+    height: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.inneritm{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.item{
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+.sechead{
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    padding-left: 60px;
+    text-transform: uppercase;
+}
+.itemtext{
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
